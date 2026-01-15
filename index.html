@@ -126,6 +126,17 @@
             border: 2px solid #0f0;
         }
 
+        footer {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            padding: 30px 20px;
+            color: #0f0;
+            border-top: 2px solid #0f0;
+            margin-top: 60px;
+            font-size: 0.9rem;
+        }
+
         @media (max-width: 768px) {
             header h1 {
                 font-size: 2rem;
@@ -173,6 +184,10 @@
         </div>
     </div>
 
+    <footer>
+        © 2026 Digital Asset Instructor, All Rights Reserved.
+    </footer>
+
     <script>
         const canvas = document.getElementById('matrix-bg');
         const ctx = canvas.getContext('2d');
@@ -213,8 +228,7 @@
         window.addEventListener('resize', () => {
             canvas.width = window.innerWidth;
             canvas.height = window.innerHeight;
-        });             < footer style=“padding:20px; color:#666; font-size:12px; text-align:center;”> © Digital Asset Instructor 2026. All rights reserved. < /footer >
-
+        });             
 
     </script>
 </body>
